@@ -21,7 +21,10 @@ int main() {
         if (A[i] % 2 == 0) {
             pares[cantidadPares] = A[i]; 
             cantidadPares++; 
-        } 
+        } else {
+            impares[cantidadImpares] = A[i]; 
+            cantidadImpares++; 
+        }
     }
 
     
