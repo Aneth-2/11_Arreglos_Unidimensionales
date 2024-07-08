@@ -28,7 +28,8 @@ int main() {
     cout << "La sumatoria de los numeros ingresados es " << suma << endl;
     cout << "El porcentaje de valores cero ingresados es " << porcentajeCero << "%" << endl;
 
-
+    delete[] numeros; 
+   
     return 0;
 }
 
