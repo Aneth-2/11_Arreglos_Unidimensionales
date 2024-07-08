@@ -14,6 +14,9 @@ int main() {
             }
         }
 
+        cout << "Ingrese la mayor temperatura del dia " << i + 1 << ": ";
+        cin >> tempma[i];
+
     
 	}
     
