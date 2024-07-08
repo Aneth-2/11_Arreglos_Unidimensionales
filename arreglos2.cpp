@@ -14,6 +14,14 @@ int main() {
     int* pares = new int[n]; 
     int* impares = new int[n]; 
     
+     for (int i = 0; i < n; ++i) {
+        cout << "Ingrese el numero #" << i + 1 << ": ";
+        cin >> A[i];
+        
+       
+    }
+
+    
     return 0;
 }
 
