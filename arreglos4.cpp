@@ -15,6 +15,9 @@ int main() {
     int* arreglo = new int[tam];
     
     relleno(arreglo, tam, mult);
+    
+    cout << "Los multiplos son: ";
+
      
     return 0;
 }
