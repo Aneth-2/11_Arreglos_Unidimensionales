@@ -13,6 +13,10 @@ int main() {
         cout << "Ingrese el nombre del estudiante de FP #" << i + 1 << ": ";
         cin >> fp[i];
     }
+    
+    cout << "Ingrese el numero de estudiantes de Postgrado (PG): ";
+    cin >> countPG;
+
 
 
     return 0;
