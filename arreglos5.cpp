@@ -8,7 +8,7 @@ int main() {
     cout << "Ingrese el numero de estudiantes de Formacion Profesional (FP): ";
     cin >> countFP;
 
-   
+    string fp[countFP];
 
     return 0;
 }
