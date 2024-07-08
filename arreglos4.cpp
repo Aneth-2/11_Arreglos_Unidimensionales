@@ -12,6 +12,8 @@ int main() {
     cout << "Ingrese el numero para completar con multiplos: ";
     cin >> mult;
     
+    int* arreglo = new int[tam];
+    
     
     return 0;
 }
