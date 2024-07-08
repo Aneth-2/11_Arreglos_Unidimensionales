@@ -11,20 +11,7 @@ int main() {
     
     int* numeros = new int[n]; 
     
-    for(int i = 0; i < n; i++) {
-        cout << "Ingrese el numero " << i + 1 << ": ";
-        cin >> numeros[i];
-        
-        suma = suma + numeros[i];
-        
-        if(numeros[i] == 0) {
-        contadorCero = contadorCero + 1.0; 
-			
-        }            
-    }
 
-    
-    
 
 
     return 0;
