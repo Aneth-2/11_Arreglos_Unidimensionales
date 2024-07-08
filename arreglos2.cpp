@@ -10,6 +10,9 @@ int main() {
     cout << "Ingrese la cantidad de numeros en el arreglo: ";
     cin >> n;
     
+    int* pares = new int[n]; 
+    int* impares = new int[n]; 
+    
     return 0;
 }
 
