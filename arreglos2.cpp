@@ -27,7 +27,9 @@ int main() {
         }
     }
 
-    
+     cout << "La cantidad de numeros pares es: " << cantidadPares << endl;
+     cout << "La cantidad de numeros impares es: " << cantidadImpares << endl;
+
     return 0;
 }
 
