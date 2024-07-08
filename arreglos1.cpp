@@ -17,12 +17,13 @@ int main() {
         
         suma = suma + numeros[i];
 
-        
-    
+         if(numeros[i] == 0) {
+            contadorCero = contadorCero + 1.0; 
 			
-        }
+        }			
+    }
 
-
+    float porcentajeCero = (contadorCero / n) * 100.0;
 
     return 0;
 }
