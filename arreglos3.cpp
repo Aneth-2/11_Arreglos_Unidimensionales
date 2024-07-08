@@ -32,6 +32,8 @@ int main() {
 
 	}
     
+    cout << "El dia con la temperatura mas baja es: " << tempb << endl;
+    
     return 0;
 }
 
