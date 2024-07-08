@@ -9,6 +9,11 @@ int main() {
     cin >> countFP;
 
     string fp[countFP];
+    for (int i = 0; i < countFP; i++) {
+        cout << "Ingrese el nombre del estudiante de FP #" << i + 1 << ": ";
+        cin >> fp[i];
+    }
+
 
     return 0;
 }
