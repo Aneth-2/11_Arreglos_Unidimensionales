@@ -14,7 +14,8 @@ int main() {
     
     int* arreglo = new int[tam];
     
-    
+    relleno(arreglo, tam, mult);
+     
     return 0;
 }
 
