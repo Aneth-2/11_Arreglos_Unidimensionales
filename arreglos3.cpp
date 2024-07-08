@@ -16,6 +16,12 @@ int main() {
 
         cout << "Ingrese la mayor temperatura del dia " << i + 1 << ": ";
         cin >> tempma[i];
+        
+		for (int j = 0; j < i; j++) {
+            if (tempmin[i] == tempma[j]) {
+                cout << "La temperatura coincide con la temperatura maxima del dia " << j + 1 << endl;
+            }
+        }
 
     
 	}
