@@ -11,6 +11,15 @@ int main() {
     
     int* numeros = new int[n]; 
     
+    for(int i = 0; i < n; i++) {
+        cout << "Ingrese el numero " << i + 1 << ": ";
+        cin >> numeros[i];
+        
+     
+       
+    }
+
+    
     
 
 
