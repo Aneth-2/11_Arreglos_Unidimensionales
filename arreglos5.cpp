@@ -17,6 +17,13 @@ int main() {
     cout << "Ingrese el numero de estudiantes de Postgrado (PG): ";
     cin >> countPG;
 
+   string pg[countPG];
+    for (int i = 0; i < countPG; i++) {
+        cout << "Ingrese el nombre del estudiante de PG #" << i + 1 << ": ";
+        cin >> pg[i];
+    }
+
+
 
 
     return 0;
