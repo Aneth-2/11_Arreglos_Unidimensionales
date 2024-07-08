@@ -23,7 +23,10 @@ int main() {
             }
         }
 
-    
+     if (tempmin[i] < tempb) {
+            tempb = tempmin[i];
+        }
+
 	}
     
     return 0;
