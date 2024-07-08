@@ -17,6 +17,12 @@ int main() {
     relleno(arreglo, tam, mult);
     
     cout << "Los multiplos son: ";
+    for (int i = 0; i < tam; i++) {
+        cout << arreglo[i] << " ";
+    }
+    cout << endl;
+    
+    delete[] arreglo;
 
      
     return 0;
