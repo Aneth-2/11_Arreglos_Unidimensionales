@@ -24,6 +24,8 @@ int main() {
     }
 
     float porcentajeCero = (contadorCero / n) * 100.0;
+    
+    cout << "La sumatoria de los numeros ingresados es " << suma << endl;
 
     return 0;
 }
