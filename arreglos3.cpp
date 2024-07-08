@@ -26,6 +26,9 @@ int main() {
      if (tempmin[i] < tempb) {
             tempb = tempmin[i];
         }
+      
+	  tempme = (tempma[i] + tempmin[i]) / 2.0;
+        cout << "La temperatura media del dia " << i + 1 << " es: " << tempme << endl;
 
 	}
     
