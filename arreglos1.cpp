@@ -17,10 +17,10 @@ int main() {
         
         suma = suma + numeros[i];
         
-         if(numeros[i] == 0) {
-           
+        if(numeros[i] == 0) {
+        contadorCero = contadorCero + 1.0; 
 			
-        }       
+        }            
     }
 
     
