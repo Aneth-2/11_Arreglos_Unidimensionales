@@ -18,7 +18,10 @@ int main() {
         cout << "Ingrese el numero #" << i + 1 << ": ";
         cin >> A[i];
         
-       
+        if (A[i] % 2 == 0) {
+            pares[cantidadPares] = A[i]; 
+            cantidadPares++; 
+        } 
     }
 
     
