@@ -15,7 +15,7 @@ int main() {
         cout << "Ingrese el numero " << i + 1 << ": ";
         cin >> numeros[i];
         
-     
+        suma = suma + numeros[i];
        
     }
 
