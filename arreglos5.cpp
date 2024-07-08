@@ -23,6 +23,15 @@ int main() {
         cin >> pg[i];
     }
 
+ cout << "Los nombres repetidos son: " << endl;
+    for (int i = 0; i < countFP; i++) {
+        for (int j = 0; j < countPG; j++) {
+            if (fp[i] == pg[j]) {
+                cout << fp[i] << endl;
+                break; 
+            }
+        }
+    }
 
 
 
