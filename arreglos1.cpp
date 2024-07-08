@@ -16,7 +16,11 @@ int main() {
         cin >> numeros[i];
         
         suma = suma + numeros[i];
-       
+        
+         if(numeros[i] == 0) {
+           
+			
+        }       
     }
 
     
